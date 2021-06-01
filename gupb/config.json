@@ -1,0 +1,15 @@
+{
+    "arenas": [
+        "archipelago",
+        "wasteland",
+        "dungeon",
+        "fisher_island"
+    ],
+    "controllers": [],
+    "start_balancing": false,
+    "visualise": false,
+    "show_sight": null,
+    "lala": "if",
+    "runs_no": 5,
+    "profiling_metrics": []
+}
