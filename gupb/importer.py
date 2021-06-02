@@ -5,7 +5,7 @@ import sys
 
 
 class ObjSpecification:
-    AS_OBJCECT   = '__is-obj'
+    AS_OBJECT   = '__is-obj'
     OBJ_NAME     = 'obj-name'
     CALL_OR_INIT = 'init/call'
     OBJ_ARGS     = 'args'
@@ -73,7 +73,7 @@ def process_object(obj):
         for key in obj.keys():
             processed_obj[key] = process_object(obj[key])
         
-        as_obj = obj.get(ObjSpecification.AS_OBJCECT, False)
+        as_obj = obj.get(ObjSpecification.AS_OBJECT, False)
         if as_obj:
             result_obj = create_object(processed_obj)
         else:
